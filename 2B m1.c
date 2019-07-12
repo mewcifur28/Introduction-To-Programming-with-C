@@ -8,7 +8,7 @@ int main(){
 		for(i = 1; i <= num; i++){
 			factorial *= i;
 		}
-		printf("factorial of %d is %d\n", num, factorial);
+		printf("factorial of %lld is %lld\n", num, factorial);
 	}
 	else{
 		printf("Invalid number.\n");
